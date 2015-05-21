@@ -1,0 +1,27 @@
+{
+  "name": "nettonn/yii2demandimg",
+  "description": "Yii2 ext to attach images to models with thumb generator on demand and admin widgets",
+  "keywords": ["yii2", "images", "store", "images store", "demand", "nettonn"],
+  "type": "yii2-extension",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dmitriy Lebedev",
+      "email": "dev.nettonn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-imagine": "*"
+  },
+  "suggest": {
+    "ext-imagick": ""
+  },
+  "autoload": {
+    "psr-4": {
+      "nettonn\\yii2demandimg\\": ""
+    }
+  }
+}
